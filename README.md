@@ -39,4 +39,5 @@ Part2
 =================
 References: 
 Sidebar css derived from here: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed
+Topbar css derived from here: https://www.w3schools.com/howto/howto_js_topnav.asp
 Font settings, byModernDesigner: https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file
