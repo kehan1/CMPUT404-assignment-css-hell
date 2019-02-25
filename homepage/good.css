@@ -1,5 +1,6 @@
 /* sidebar css derived from here: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed*/
 /*font settings, byModernDesigner: https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file*/
+/*topbar settings: https://www.w3schools.com/howto/howto_js_topnav.asp*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 body{
@@ -30,7 +31,9 @@ p{
     margin-left: 3em;
     margin-right: 10em;
 }
-
+.background{
+    background-image: url()
+}
 .sidenav{
     color: black;
     height: 100%;
@@ -38,15 +41,51 @@ p{
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    right: 0;
     background-color:rgb(182, 226, 243);
     overflow-x: hidden;
     padding-top: 20px;
 }
 
 .main {
-    margin-left: 300px; /* Same as the width of the sidenav */
+    margin-right: 300px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    color:black;
+    position: fixed;
+    margin-left:-10px;
+    height:50px;
+    width:100%;
+    z-index: 1;
+    top: 0;
+    background-color:rgb(182, 226, 243);
+    /*
+    color:black;
+    height: 300px;
+    width:100%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    background-color:rgb(182, 226, 243);
+    overflow-x: hidden;
+    padding-top: 20px;*/
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left:4em;
+  }
+
+
 

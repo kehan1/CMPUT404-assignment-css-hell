@@ -1,4 +1,5 @@
 <!--sidebar derived from here https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed-->
+<!--topbar settings: https://www.w3schools.com/howto/howto_js_topnav.asp*-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +11,17 @@
     
 </head>
 <body>
+    <div class="background">
+    </div>
+    <div class="topnav">
+            <a href="#">Home</a>
+            <a href="#Me">About Me</a>
+            <a href="#History">Professional History</a>
+            <a href="#CanDo">What I Can Do</a>
+    </div>
     <div class="sidenav">
         <img src="photo.JPG" /><br>
-        <h1 id = "name">Kehan Wang</h1>
+        <h1>Kehan Wang</h1>
         <br>
         <br>
         <ol>Keypoints about me:</ol>
@@ -24,7 +33,7 @@
 
 
 
-    <div class="main">
+    <div class="main" id="Me">
         <br>
         <h2>About Me</h2>
         <p>
@@ -35,7 +44,7 @@
         <br>
         <br>
     </div>
-    <div class="main">
+    <div class="main" id="History">
         <h2>Professional History</h2>
         <p>
             Visual Recognition: Using Convolutional Neural Network to classify 
@@ -54,7 +63,7 @@
     </div>
     <br>
     <br>
-    <div class="main">
+    <div class="main" id = "CanDo">
         <h2>What I Can Do</h2>
         <p>
             Programming Language: Python, Java, C, JavaScript.
