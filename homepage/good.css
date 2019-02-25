@@ -64,16 +64,6 @@ p{
     z-index: 1;
     top: 0;
     background-color:rgb(182, 226, 243);
-    /*
-    color:black;
-    height: 300px;
-    width:100%;
-    position:fixed;
-    z-index: 1;
-    top: 0;
-    background-color:rgb(182, 226, 243);
-    overflow-x: hidden;
-    padding-top: 20px;*/
   }
   
   /* Style the links inside the navigation bar */

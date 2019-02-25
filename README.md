@@ -31,7 +31,7 @@ Image settings: https://www.webfx.com/blog/web-design/responsive-background-imag
                 https://www.w3schools.com/css/css3_images.asp
 
 Modification: 
-I add a link to my css file, and modified the chapter links.
+I add a link inside < head> to my css file, and modified the chapter links.
 Examples here: < link rel="stylesheet" href="main.css" type="text/css" />,
                 < a href="#link2HCH0001"> Chapter 1 < /a>
 
