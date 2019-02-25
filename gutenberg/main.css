@@ -1,0 +1,88 @@
+/*font settings, byModernDesigner: https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/*https://www.webfx.com/blog/web-design/responsive-background-image/*/
+body{
+    background-image:url(http://img.1sucai.com/tuku/yulantu/110923/10016-1109230R31925.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Indie Flower",cursive;
+    margin:15%;
+
+}
+pre {
+    text-align: center;
+    font-family:serif;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-left: 0;
+}
+/*https://www.w3schools.com/css/css3_images.asp*/
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+tr{
+    font-size: 23px;
+}
+
+h1{
+    text-align:  center;
+    clear: both;
+    color:brown;
+    font-size: 43px;
+}
+
+h2{
+    text-align:  center;
+    clear: both;
+    color:rgb(15, 135, 204);
+    font-size: 40px;
+}
+
+h3{
+    text-align:  center;
+    clear: both;
+    color:rgb(111, 43, 199);
+    font-size: 38px;
+}
+
+h4{
+    text-align:  center;
+    clear: both;
+    color:rgb(218, 32, 187);
+    font-size: 35px;
+}
+
+h4{
+    text-align:  center;
+    clear: both;
+    color:rgb(137, 192, 10);
+    font-size: 33px;
+}
+
+h5{
+    text-align:  center;
+    clear: both;
+    color:rgb(12, 87, 138);
+    font-size: 30px;
+}
+
+h6{
+    text-align:  center;
+    clear: both;
+    color:rgb(211, 62, 87);
+    font-size: 28px;
+}
+
+p { 
+    font-size:25px;
+    line-height: 150%;
+    text-align: left;
+
+}
+

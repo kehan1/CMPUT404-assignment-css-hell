@@ -1,0 +1,42 @@
+/* sidebar css derived from here: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed*/
+body {
+    background: rgb(3, 3, 97) ;
+    font-family: serif;
+}
+
+h1{
+    color: goldenrod
+}
+
+img{
+    width:108px;
+    height: 144px;
+}
+
+h2{
+    color: brown;
+}
+p{
+    background:greenyellow;
+    color:purple;
+}
+
+.sidenav{
+    color: greenyellow;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ff0707;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main {
+    margin-left: 300px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
